@@ -1,0 +1,444 @@
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    
+Objective:  Total_Cost = 3.507218252 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 AOAC_fibre_max
+                    BS      32.55761      37.44239          -Inf       33.10078       -.01618       2.98038 Cabbage_Amount
+                                            .           70.00000       32.26025        .00050       3.52347 Bacon_rashers,_back,_raw
+
+     2 AOAC_fibre_min
+                    BS     -32.55761       2.55761          -Inf      -32.26025       -.00050       3.52347 Bacon_rashers,_back,_raw
+                                            .          -30.00000      -33.10078        .01618       2.98038 Cabbage_Amount
+
+     3 Avocado_Amount
+                    BS       1.58791       -.78791        .80000        1.63943       -.17059       3.23634 Cabbage_Amount
+                                            .               +Inf        1.56575        .00670       3.51785 Bacon_rashers,_back,_raw
+
+     4 Bananas_Amount
+                    NL        .80000        .             .80000         .79167       -.08944       3.50647 Retinol_max
+                                            .08944          +Inf        1.07478          +Inf       3.53180 Carrots_Amount
+
+     5 Cabbage_Amount
+                    NL        .80000        .             .80000         .77557       -.01730       3.50680 Retinol_max
+                                            .01730          +Inf        1.30819          +Inf       3.51601 Peas,_raw
+
+     6 Calcium_max  BS     700.00000    1800.00000          -Inf      728.49303       -.00047       3.17657 Calcium_min
+                                            .         2500.00000      700.00000          +Inf          +Inf
+
+     7 Calcium_min  NU    -700.00000        .               -Inf     -728.49303          -Inf       3.52068 Retinol_max
+                                           -.00047    -700.00000     -623.09088        .00047       3.47089 Cheese,_hard,_average
+
+     8 Carbohydrate_min
+                    BS    -375.71353      42.71353          -Inf     -375.09761       -.00024       3.59775 Bacon_rashers,_back,_raw
+                                            .         -333.00000     -380.61923        .00298       2.38616 Energy_min
+
+     9 Carrots_Amount
+                    BS       1.24330       -.44330        .80000        1.25572       -.01194       3.49237 Bacon_rashers,_back,_raw
+                                            .               +Inf         .09147        .02699       3.54078 Onions_Amount
+
+    10 Chloride_max BS    2759.54662     840.45338          -Inf     3630.42406        .            3.49837 Sodium_min
+                                            .         3600.00000     2689.74794        .00075       5.58595 Beetroot,_raw
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    
+Objective:  Total_Cost = 3.507218252 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 Chloride_min BS   -2759.54662     259.54662          -Inf    -2689.74794       -.00075       5.58595 Beetroot,_raw
+                                            .        -2500.00000    -3600.00000        .            3.49837 Sodium_min
+
+    12 Copper_max   BS       1.74399       8.25601          -Inf        1.81205       -.12915       3.28198 Cabbage_Amount
+                                            .           10.00000        1.72655        .00851       3.52206 Bacon_rashers,_back,_raw
+
+    13 Copper_min   BS      -1.74399        .54399          -Inf       -1.72655       -.00851       3.52206 Bacon_rashers,_back,_raw
+                                            .           -1.20000       -1.81205        .12915       3.28198 Cabbage_Amount
+
+    14 Energy_max   BS    2500.00000     250.00000          -Inf     2518.13981       -.00081       1.48987 Energy_min
+                                            .         2750.00000     2500.00000          +Inf          +Inf
+
+    15 Energy_min   NU   -2500.00000        .               -Inf    -2518.13981          -Inf       3.52186 Retinol_max
+                                           -.00081   -2500.00000    -2342.05832        .00081       3.37977 Carbohydrate_min
+
+    16 Fat_max      BS      81.74123      15.25877          -Inf       81.91320       -.00086       3.43668 Bacon_rashers,_back,_raw
+                                            .           97.00000       81.02846        .01233       4.51522 Cabbage_Amount
+
+    17 Folate_max   BS     366.00570     633.99430          -Inf      380.18967       -.00062       3.28041 Cabbage_Amount
+                                            .         1000.00000      355.68046        .00046       3.67726 Staple_Food_Proportion
+
+    18 Folate_min   BS    -366.00570     166.00570          -Inf     -355.68046       -.00046       3.67726 Staple_Food_Proportion
+                                            .         -200.00000     -380.18967        .00062       3.28041 Cabbage_Amount
+
+    19 Free_sugars_max
+                    NU      33.00000        .               -Inf       30.07016          -Inf       3.55567 Carrots_Amount
+                                           -.01654      33.00000       33.09022        .01654       3.50573 Retinol_max
+
+    20 Fruit_Veg_Proportion
+                    NL        .             .             .             -.24672       -.17630       3.46372 Peas,_raw
+                                            .17630          +Inf        1.18123          +Inf       3.71547 Pasta,_wholewheat,_spaghetti,_dried,_raw
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   3
+
+Problem:    
+Objective:  Total_Cost = 3.507218252 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    21 Iodine_max   BS     232.61081     867.38919          -Inf      241.25492       -.00260       2.90251 Yogurt,_whole_milk,_plain
+                                            .         1100.00000      183.67152        .00010       3.53002 Staple_Food_Proportion
+
+    22 Iodine_min   BS    -232.61081      92.61081          -Inf     -183.67152       -.00010       3.53002 Staple_Food_Proportion
+                                            .         -140.00000     -241.25492        .00260       2.90251 Yogurt,_whole_milk,_plain
+
+    23 Iron_max     BS      11.49156      33.50844          -Inf       12.69750       -.05147       2.91574 Bread,_white,_average
+                                            .           45.00000       11.42924        .00238       3.53458 Bacon_rashers,_back,_raw
+
+    24 Iron_min     BS     -11.49156       2.79156          -Inf      -11.42924       -.00238       3.53458 Bacon_rashers,_back,_raw
+                                            .           -8.70000      -12.69750        .05147       2.91574 Bread,_white,_average
+
+    25 Magnesium_max
+                    BS     331.31891      18.68109          -Inf      336.44164       -.00172       2.93874 Cabbage_Amount
+                                            .          350.00000      329.01490        .00006       3.52856 Bacon_rashers,_back,_raw
+
+    26 Magnesium_min
+                    BS    -331.31891      31.31891          -Inf     -329.01490       -.00006       3.52856 Bacon_rashers,_back,_raw
+                                            .         -300.00000     -336.44164        .00172       2.93874 Cabbage_Amount
+
+    27 Max_Red_Meat BS        .             .70000          -Inf         .02521       -.00589       3.50722 Bacon_rashers,_back,_raw
+                                            .             .70000         .               +Inf       3.50722
+
+    28 Mono_FA_max  BS      32.40000       7.20000          -Inf       34.43545       -.02752       2.61556 Mono_FA_min
+                                            .           39.60000       32.40000          +Inf          +Inf
+
+    29 Mono_FA_min  NU     -32.40000        .               -Inf      -34.43545          -Inf       3.56323 Peas,_raw
+                                           -.02752     -32.40000      -25.78981        .02752       3.32530 Avocado_Amount
+
+    30 Niacin_equivalent_max
+                    NU      35.00000        .               -Inf       34.82937          -Inf       3.51092 Retinol_max
+                                           -.02169      35.00000       36.66776        .02169       3.47105 Magnesium_max
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   4
+
+Problem:    
+Objective:  Total_Cost = 3.507218252 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    31 Niacin_equivalent_min
+                    BS     -35.00000      18.50000          -Inf      -34.82937       -.02169       4.26626 Niacin_equivalent_max
+                                            .          -16.50000      -35.00000          +Inf          -Inf
+
+    32 Onions_Amount
+                    NL        .80000        .             .80000         .78450       -.02282       3.50686 Retinol_max
+                                            .02282          +Inf        1.32436          +Inf       3.51918 Carrots_Amount
+
+    33 Phosphorus_max
+                    BS    1622.43130    2377.56870          -Inf     1632.16759       -.00138       1.26450 Calcium_min
+                                            .         4000.00000     1618.01166        .00003       3.56170 Bacon_rashers,_back,_raw
+
+    34 Phosphorus_min
+                    BS   -1622.43130    1072.43130          -Inf    -1618.01166       -.00003       3.56170 Bacon_rashers,_back,_raw
+                                            .         -550.00000    -1632.16759        .00138       1.26450 Calcium_min
+
+    35 Poly_FA_max  NU      19.80000        .               -Inf       18.67198          -Inf       3.52526 Retinol_max
+                                           -.01599      19.80000       31.89520        .01599       3.31381 Fat_max
+
+    36 Poly_FA_min  BS     -19.80000       3.60000          -Inf      -18.67198       -.01599       3.82383 Poly_FA_max
+                                            .          -16.20000      -19.80000          +Inf          -Inf
+
+    37 Potassium_min
+                    NU   -3500.00000        .               -Inf    -4166.28579          -Inf       3.65269 Cheese,_hard,_average
+                                           -.00022   -3500.00000    -3454.33915        .00022       3.49725 Retinol_max
+
+    38 Protein_min  BS     -89.75359      34.25359          -Inf      -89.17507       -.01519       4.87086 Cabbage_Amount
+                                            .          -55.50000      -89.93593        .00081       3.43417 Bacon_rashers,_back,_raw
+
+    39 Retinol_max  BS    2974.12654      25.87346          -Inf     3196.66322       -.00001       3.49016 Bacon_rashers,_back,_raw
+                                            .         3000.00000     2098.89557        .00001       3.54788 Onions_Amount
+
+    40 Retinol_min  BS   -2974.12654    2274.12654          -Inf    -2098.89557       -.00001       3.54788 Onions_Amount
+                                            .         -700.00000    -3000.00000        .00001       3.49016 Bacon_rashers,_back,_raw
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   5
+
+Problem:    
+Objective:  Total_Cost = 3.507218252 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    41 Riboflavin_min
+                    BS      -2.46595       1.16595          -Inf       -2.07742       -.01235       3.53766 Staple_Food_Proportion
+                                            .           -1.30000       -2.49248        .33314       2.68571 Broccoli,_green,_raw
+
+    42 Salt_max     BS       4.54900       1.45100          -Inf        5.94931       -.00192       3.49847 Sodium_min
+                                            .            6.00000        4.45578        .05146       3.74132 Staple_Food_Proportion
+
+    43 Satd_FA_max  BS      20.49406      10.50594          -Inf       20.66574       -.00086       3.48950 Bacon_rashers,_back,_raw
+                                            .           31.00000       19.80889        .01283       3.77012 Cabbage_Amount
+
+    44 Selenium_max BS     123.79802     276.20198          -Inf      125.83520       -.00431       2.97308 Cabbage_Amount
+                                            .          400.00000      123.62863        .00088       3.61568 Bacon_rashers,_back,_raw
+
+    45 Selenium_min BS    -123.79802      48.79802          -Inf     -123.62863       -.00088       3.61568 Bacon_rashers,_back,_raw
+                                            .          -75.00000     -125.83520        .00431       2.97308 Cabbage_Amount
+
+    46 Sodium_min   NU   -1500.00000        .               -Inf    -2060.40818          -Inf       3.50991 Chloride_max
+                                            .        -1500.00000    -1326.93621        .            3.50639 Chloride_min
+
+    47 Staple_Food_Proportion
+                    NL        .             .             .             -.42060       -.00376       3.50564 Retinol_max
+                                            .00376          +Inf        1.27624          +Inf       3.51202 Milk,_semi_skimmed,_pasteurised,_average
+
+    48 Thiamin_min  BS      -2.19437       1.19437          -Inf       -2.02169       -.05117       3.61951 Broccoli,_green,_raw
+                                            .           -1.00000       -2.21313        .00791       3.48986 Bacon_rashers,_back,_raw
+
+    49 Vitamin_B12_min
+                    BS     -10.49540       8.99540          -Inf       -9.10525       -.00345       3.54343 Staple_Food_Proportion
+                                            .           -1.50000      -10.57743        .04555       3.02914 Sardines,_flesh_only,_raw
+
+    50 Vitamin_B6_max
+                    BS       2.22023      97.77977          -Inf        2.22182       -.09320       3.30030 Bacon_rashers,_back,_raw
+                                            .          100.00000        2.17003        .09555       3.71937 Staple_Food_Proportion
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   6
+
+Problem:    
+Objective:  Total_Cost = 3.507218252 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    51 Vitamin_B6_min
+                    BS      -2.22023        .82023          -Inf       -2.17003       -.09555       3.71937 Staple_Food_Proportion
+                                            .           -1.40000       -2.22182        .09320       3.30030 Bacon_rashers,_back,_raw
+
+    52 Vitamin_C_max
+                    BS      90.63575    1909.36425          -Inf       91.18260       -.00027       3.48262 Bacon_rashers,_back,_raw
+                                            .         2000.00000       82.93865        .00494       3.95494 Beans,_cannellini,_canned,_re_heated,_drained
+
+    53 Vitamin_C_min
+                    BS     -90.63575      50.63575          -Inf      -82.93865       -.00494       3.95494 Beans,_cannellini,_canned,_re_heated,_drained
+                                            .          -40.00000      -91.18260        .00027       3.48262 Bacon_rashers,_back,_raw
+
+    54 Vitamin_D_max
+                    BS      10.00000      90.00000          -Inf       10.17112       -.10139       2.49333 Vitamin_D_min
+                                            .          100.00000       10.00000          +Inf          +Inf
+
+    55 Vitamin_D_min
+                    NU     -10.00000        .               -Inf      -10.17112          -Inf       3.52457 Retinol_max
+                                           -.10139     -10.00000       -8.36108        .10139       3.34105 Magnesium_max
+
+    56 Zinc_max     BS      12.71447      27.28553          -Inf       12.79669       -.05835       2.76537 Staple_Food_Proportion
+                                            .           40.00000       12.68497        .00503       3.57117 Bacon_rashers,_back,_raw
+
+    57 Zinc_min     BS     -12.71447       3.21447          -Inf      -12.68497       -.00503       3.57117 Bacon_rashers,_back,_raw
+                                            .           -9.50000      -12.79669        .05835       2.76537 Staple_Food_Proportion
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   7
+
+Problem:    
+Objective:  Total_Cost = 3.507218252 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 Apples,_eating,_raw,_flesh_and_skin,_weighed_with_core
+                    NL        .             .20000        .             -.00908        .00291       3.50543 Retinol_max
+                                            .19709          +Inf         .30025          +Inf       3.56639 Carrots_Amount
+
+     2 Avocado,_Fuerte,_flesh_only,_weighed_with_skin_and_stone
+                    BS       1.58791        .50000        .             1.63943        .32941       3.23634 Cabbage_Amount
+                                            .               +Inf        1.56575        .50670       3.51785 Bacon_rashers,_back,_raw
+
+     3 Bacon_rashers,_back,_raw
+                    NL        .             .20000        .             -.20438        .19411       3.50601 Magnesium_max
+                                            .00589          +Inf         .02521          +Inf       3.50737 Retinol_max
+
+     4 Bananas,_raw,_flesh_only,_weighed_with_skin
+                    BS        .80000        .09000        .             1.07478        .00056       3.43567 Bananas_Amount
+                                            .               +Inf         .80000          +Inf          +Inf
+
+     5 Beans,_cannellini,_canned,_re_heated,_drained
+                    NL        .             .41700        .             -.47928        .24263       3.42365 AOAC_fibre_min
+                                            .17437          +Inf         .21805          +Inf       3.54524 Peas,_raw
+
+     6 Beef,_flank,_raw,_lean
+                    NL        .             .85000        .             -.18252        .10388       3.37103 Magnesium_max
+                                            .74612          +Inf         .01925          +Inf       3.52158 Retinol_max
+
+     7 Beetroot,_raw
+                    NL        .             .22000        .             -.01452        .11203       3.50565 Retinol_max
+                                            .10797          +Inf         .48698          +Inf       3.55980 Carrots_Amount
+
+     8 Blackberries,_raw
+                    NL        .            1.40000        .             -.01765        .07857       3.48390 Retinol_max
+                                           1.32143          +Inf         .59634          +Inf       4.29524 Carrots_Amount
+
+     9 Blueberries  NL        .            1.33333        .             -.01017        .00572       3.49372 Retinol_max
+                                           1.32762          +Inf         .33732          +Inf       3.95505 Carrots_Amount
+
+    10 Bread,_white,_average
+                    NL        .             .16000        .             -.03436        .10713       3.50540 Retinol_max
+                                            .05287          +Inf        1.17402          +Inf       3.56929 Carrots_Amount
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   8
+
+Problem:    
+Objective:  Total_Cost = 3.507218252 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 Broccoli,_green,_raw
+                    NL        .             .21900        .             -.48100        .18492       3.49083 Retinol_max
+                                            .03408          +Inf         .25930          +Inf       3.51605 Peas,_raw
+
+    12 Cabbage,_average,_raw
+                    BS        .80000        .15000        .             1.30819        .13270       3.49338 Cabbage_Amount
+                                            .               +Inf         .80000          +Inf          +Inf
+
+    13 Carrots,_old,_raw
+                    BS       1.24330        .06900        .             1.25572        .05706       3.49237 Bacon_rashers,_back,_raw
+                                            .               +Inf         .80000        .09599       3.54078 Onions_Amount
+
+    14 Cauliflower,_raw
+                    NL        .             .25000        .             -.04481        .13151       3.50191 Retinol_max
+                                            .11849          +Inf         .39020          +Inf       3.55345 Peas,_raw
+
+    15 Cheese,_hard,_average
+                    BS        .13600        .77500        .              .49578        .76167       3.50540 Staple_Food_Proportion
+                                            .               +Inf         .10466       1.05548       3.54536 Cabbage_Amount
+
+    16 Cherries,_flesh_and_skin,_raw
+                    NL        .             .90000        .             -.00632       -.02221       3.50139 Retinol_max
+                                            .92221          +Inf         .20806          +Inf       3.69909 Carrots_Amount
+
+    17 Chicken,_leg_quarter,_raw,_meat_and_skin,_weighed_with_bone
+                    NL        .             .19500        .             -.29943        .10824       3.48124 Magnesium_max
+                                            .08676          +Inf         .03521          +Inf       3.51027 Retinol_max
+
+    18 Chocolate,_plain
+                    NL        .             .70000        .             -.00141       -.39141       3.50568 Retinol_max
+                                           1.09141          +Inf         .04547          +Inf       3.55684 Carrots_Amount
+
+    19 Coffee,_powder,_instant
+                    NL        .            1.57000        .             -.14012        .29161       3.32808 Carrots_Amount
+                                           1.27839          +Inf         .00426          +Inf       3.51267 Retinol_max
+
+    20 Eggs,_chicken,_whole,_raw
+                    BS       3.11225        .42000        .             3.16512        .09183       2.48587 Vitamin_D_min
+                                            .               +Inf        3.10943        .47268       3.67118 Bacon_rashers,_back,_raw
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   9
+
+Problem:    
+Objective:  Total_Cost = 3.507218252 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    21 Garlic,_raw  NL        .             .65217        .            -1.49339        .26076       2.92268 Pasta,_wholewheat,_spaghetti,_dried,_raw
+                                            .39142          +Inf         .19965          +Inf       3.58536 Peas,_raw
+
+    22 Lamb,_average,_raw,_lean_and_fat
+                    NL        .            1.50000        .             -.21661        .16665       3.21840 Magnesium_max
+                                           1.33335          +Inf         .02365          +Inf       3.53875 Retinol_max
+
+    23 Mangoes,_ripe,_flesh_only,_raw,_weighed_with_skin_and_stone
+                    NL        .             .45000        .             -.01551        .04556       3.50094 Retinol_max
+                                            .40444          +Inf         .49807          +Inf       3.70866 Carrots_Amount
+
+    24 Milk,_semi_skimmed,_pasteurised,_average
+                    BS       2.08303        .06388        .             2.84129       -.12798       3.10758 Potassium_min
+                                            .               +Inf       -1.85882        .06618       3.51202 Staple_Food_Proportion
+
+    25 Mushrooms,_white,_raw
+                    NL        .             .29700        .            -1.02340        .13412       3.34052 Magnesium_max
+                                            .16288          +Inf         .04414          +Inf       3.51441 Retinol_max
+
+    26 Oil,_sunflower
+                    BS        .17725        .21740        .              .17729      -3.39587       2.86676 Bacon_rashers,_back,_raw
+                                            .               +Inf         .15848       1.17801       3.67749 Poly_FA_max
+
+    27 Onions,_raw  BS        .80000        .09500        .             1.32436        .07218       3.48896 Onions_Amount
+                                            .               +Inf         .80000          +Inf          +Inf
+
+    28 Oranges,_flesh_only,_weighed_with_peel_and_pips
+                    NL        .             .22500        .             -.01647        .05864       3.50448 Retinol_max
+                                            .16636          +Inf         .55374          +Inf       3.59934 Carrots_Amount
+
+    29 Pasta,_wholewheat,_spaghetti,_dried,_raw
+                    BS        .71875        .05600        .              .84563       -.01328       3.45743 Cabbage_Amount
+                                            .               +Inf         .68494        .06039       3.51037 Bacon_rashers,_back,_raw
+
+    30 Peas,_raw    BS        .29731        .15934        .              .30953        .14719       3.50361 Bacon_rashers,_back,_raw
+                                            .               +Inf        -.18846        .18890       3.51601 Cabbage_Amount
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page  10
+
+Problem:    
+Objective:  Total_Cost = 3.507218252 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    31 Potatoes,_old,_raw,_flesh_only
+                    BS       1.94885        .08000        .             2.97259        .07531       3.49809 Staple_Food_Proportion
+                                            .               +Inf        1.82456        .15072       3.64504 Cabbage_Amount
+
+    32 Rice,_white,_long_grain,_raw
+                    BS       2.86092        .18500        .             2.87450        .17407       3.47595 Bacon_rashers,_back,_raw
+                                            .               +Inf        2.59873        .20330       3.55956 Staple_Food_Proportion
+
+    33 Sardines,_flesh_only,_raw
+                    NL        .             .50000        .             -.17475        .25305       3.46406 Magnesium_max
+                                            .24695          +Inf         .01513          +Inf       3.51095 Retinol_max
+
+    34 Spinach,_mature,_raw
+                    NL        .             .51923        .             -.69518        .25534       3.32377 Magnesium_min
+                                            .26389          +Inf         .04583          +Inf       3.51931 Retinol_max
+
+    35 Strawberries,_raw
+                    NL        .            1.00000        .             -.01632        .06687       3.49199 Retinol_max
+                                            .93313          +Inf         .55061          +Inf       4.02101 Carrots_Amount
+
+    36 Sugar,_white NL        .             .10900        .             -.00084      -1.47260       3.50589 Retinol_max
+                                           1.58160          +Inf         .02731          +Inf       3.55041 Carrots_Amount
+
+    37 Tomatoes,_standard,_raw
+                    NL        .             .17500        .             -.04439        .11529       3.50457 Retinol_max
+                                            .05971          +Inf         .44264          +Inf       3.53365 Peas,_raw
+
+    38 Tuna,_flesh_only,_raw
+                    NL        .             .44828        .             -.07390       -.15417       3.46270 Magnesium_max
+                                            .60244          +Inf         .00664          +Inf       3.51122 Retinol_max
+
+    39 Turkey,_light_meat,_raw
+                    NL        .             .90000        .             -.12410       -.18439       3.37265 Magnesium_max
+                                           1.08439          +Inf         .01152          +Inf       3.51972 Retinol_max
+
+    40 Yogurt,_whole_milk,_plain
+                    NL        .             .22000        .            -3.31300        .14733       3.26646 Iodine_min
+                                            .07267          +Inf         .30923          +Inf       3.52969 Retinol_max
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page  11
+
+Problem:    
+Objective:  Total_Cost = 3.507218252 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    41 salt         BS        .01998        .12700        .              .03437       -.06035       3.50347 Sodium_min
+                                            .               +Inf         .01919        .31463       3.51097 Bacon_rashers,_back,_raw
+
+End of report
